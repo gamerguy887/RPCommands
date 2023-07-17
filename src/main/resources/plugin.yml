@@ -9,3 +9,6 @@ commands:
   handshake:
     description: Shake another player's hand
     usage: /handshake
+  greeting:
+    description: Say hello to another player
+    usage: /greet
