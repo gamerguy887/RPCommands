@@ -17,7 +17,7 @@ public final class RPCommands extends JavaPlugin {
     public void onEnable() {
 
         // This is where our commands get registered!
-        this.getCommand("fly").setExecutor(new HandshakeCommand());// Plugin startup logic
+        this.getCommand("handshake").setExecutor(new HandshakeCommand());// Plugin startup logic
 
         // This is the startup message for the server!
         Bukkit.getServer().getConsoleSender().sendMessage("RPCommands v1.0 has started successfully!");
