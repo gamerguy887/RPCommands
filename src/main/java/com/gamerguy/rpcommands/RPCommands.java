@@ -15,12 +15,8 @@ public final class RPCommands extends JavaPlugin {
     @Override
     public void onEnable() {
 
-<<<<<<< HEAD
         // This is where our commands get registered!
         this.getCommand("handshake").setExecutor(new HandshakeCommand());// Plugin startup logic
-=======
-        this.getCommand("fly").setExecutor(new HandshakeCommand());// Plugin startup logic
->>>>>>> f4635e6dc8ce8e11c82316bad4a52d5204be9a48
 
         Bukkit.getServer().getConsoleSender().sendMessage("RPCommands v1.0 has started successfully!");
     }
