@@ -5,3 +5,7 @@ api-version: 1.20
 authors: [ Gamerguy887 ]
 description: RPCommands 1.20.1 is a simple plugin for small roleplay servers.
 website: https://www.github.com/gamerguy887
+commands:
+  handshake:
+    description: Shake another player's hand
+    usage: /handshake
