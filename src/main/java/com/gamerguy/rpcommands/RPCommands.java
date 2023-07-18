@@ -9,6 +9,7 @@ import org.bukkit.plugin.java.JavaPlugin;
     This is the main class of the RPCommands 1.20.1 Spigot plugin
     Authors:
     -Gamerguy887
+    -Mirkymoo
  */
 
 public final class RPCommands extends JavaPlugin {
